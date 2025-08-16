@@ -95,6 +95,6 @@ D. Kozen, Automata and Computability, Lecture 14, 1997.
 - Jerónimo Conteras Sierra
 
 ## Clase 
-Adolfo Ándres Castro Sánchez
-5465 - Lenguajes Formales
+- Adolfo Ándres Castro Sánchez
+- 5465 - Lenguajes Formales
 

@@ -18,7 +18,7 @@ donde cada línea corresponde a un caso de prueba.
 
 ---
 
-## 🗂️ Formato de Entrada
+## Formato de Entrada
 1. Número de casos de prueba `c`.  
 2. Para cada AFD:  
  - Número de estados `n`.  
@@ -28,7 +28,7 @@ donde cada línea corresponde a un caso de prueba.
 
 ---
 
-## 📤 Formato de Salida
+##  Formato de Salida
 - Para cada caso, se imprimen todos los **pares de estados equivalentes** en orden lexicográfico.  
 - Cada par se representa como `(i, j)`.  
 - Los pares se separan por un espacio.  
@@ -36,7 +36,7 @@ donde cada línea corresponde a un caso de prueba.
 
 ---
 
-## 📊 Ejemplo de Ejecución
+##  Ejemplo de Ejecución
 
 ### Entrada
 - 4
@@ -79,7 +79,7 @@ donde cada línea corresponde a un caso de prueba.
 
 ---
 
-## 🧑‍💻 Ejecución
+##  Ejecución
 
 ### En Java
 Compilar:

@@ -8,7 +8,7 @@ El programa toma la descripción de uno o varios autómatas, identifica los esta
 
 ---
 
-## ⚙️ Características
+##  Características
 - Lectura de múltiples AFD a través de la entrada estándar.  
 - Soporte para alfabetos de cualquier tamaño.  
 - Implementación del algoritmo de **refinamiento iterativo de clases de equivalencia**.  

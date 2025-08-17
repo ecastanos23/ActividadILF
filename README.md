@@ -83,7 +83,7 @@ where each line corresponds to a test case.
 ### In Java
 Compile:
 ```bash
-javac Main.java
+javac ActividadI.java
 ```
 ---
 

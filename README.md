@@ -1,44 +1,44 @@
-# Minimización de Autómatas Finitos Deterministas (AFD)  
+# Minimization of Deterministic Finite Automata (DFA)  
 *(Kozen, 1997 – Lecture 14)*
 
-## Descripción
-Este proyecto implementa la **minimización de autómatas finitos deterministas (AFD)** utilizando el algoritmo de **refinamiento de particiones**, descrito en *Kozen, 1997 – Lecture 14*.  
+## Description
+This project implements the **minimization of deterministic finite automata (DFA)** using the **partition refinement algorithm**, as described in *Kozen, 1997 – Lecture 14*.  
 
-El programa toma la descripción de uno o varios autómatas, identifica los estados equivalentes y muestra los pares de estados indistinguibles en **orden lexicográfico**.
-
----
-
-##  Características
-- Lectura de múltiples AFD a través de la entrada estándar.  
-- Soporte para alfabetos de cualquier tamaño.  
-- Implementación del algoritmo de **refinamiento iterativo de clases de equivalencia**.  
-- Salida con los pares de estados equivalentes en el formato requerido: (i, j) (x, y) ...
-
-donde cada línea corresponde a un caso de prueba.
+The program takes the description of one or more automata, identifies equivalent states, and outputs indistinguishable state pairs in **lexicographic order**.
 
 ---
 
-## Formato de Entrada
-1. Número de casos de prueba `c`.  
-2. Para cada AFD:  
- - Número de estados `n`.  
- - Símbolos del alfabeto separados por espacio.  
- - Conjunto de estados finales separados por espacio.  
- - Tabla de transiciones con `n` filas (una por cada estado).  
+## Features
+- Supports reading multiple DFAs through standard input.  
+- Works with alphabets of any size.  
+- Implements the algorithm of **iterative refinement of equivalence classes**.  
+- Outputs equivalent state pairs in the required format:  (i, j) (x, y) ...
+
+where each line corresponds to a test case.
 
 ---
 
-##  Formato de Salida
-- Para cada caso, se imprimen todos los **pares de estados equivalentes** en orden lexicográfico.  
-- Cada par se representa como `(i, j)`.  
-- Los pares se separan por un espacio.  
-- Cada línea de salida corresponde a un AFD.  
+## Input Format
+1. Number of test cases `c`.  
+2. For each DFA:  
+ - Number of states `n`.  
+ - Alphabet symbols separated by spaces.  
+ - Set of final states separated by spaces.  
+ - Transition table with `n` rows (one per state).  
 
 ---
 
-##  Ejemplo de Ejecución
+## Output Format
+- For each test case, all **pairs of equivalent states** are printed in lexicographic order.  
+- Each pair is represented as `(i, j)`.  
+- Pairs are separated by a space.  
+- Each output line corresponds to one DFA.  
 
-### Entrada
+---
+
+## Example Execution
+
+### Input
 - 4
 - 6
 - a b
@@ -69,32 +69,32 @@ donde cada línea corresponde a un caso de prueba.
 - 5 0
 - 4
 
-### Salida esperada
+### Expected Output
 
 - (1, 2) (3, 4)
 - (1, 2) (3, 4) (3, 5) (4, 5)
 - (0, 3) (1, 4) (2, 5)
 - (0, 1)
 
-
 ---
 
-##  Ejecución
+## Execution
 
-### En Java
-Compilar:
+### In Java
+Compile:
 ```bash
 javac Main.java
 ```
-## Referencia
+---
 
+## Reference
 D. Kozen, Automata and Computability, Lecture 14, 1997.
 
-## Autores
+## Authors
 - Emmanuel Castaño Sepúlveda
 - Jerónimo Conteras Sierra
 
-## Clase 
+## Course
 - Adolfo Ándres Castro Sánchez
-- 5465 - Lenguajes Formales
+- 5465 – Formal Languages
 
